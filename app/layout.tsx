@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
@@ -11,8 +12,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "FinTrack",
-  description: "FinTrack is a modern banking platform for everyone.",
+  title: "Fintrack",
+  description: "Fintrack is a modern banking platform for everyone.",
   icons: {
     icon: '/icons/logo.svg'
   }

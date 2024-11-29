@@ -6,8 +6,7 @@ export default function RootLayout({
   }>) {
     return (
       <main>
-          {children} 
+          {children}
       </main>
     );
   }
-  
