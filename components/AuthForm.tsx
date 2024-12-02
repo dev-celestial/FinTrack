@@ -138,7 +138,7 @@ const form = useForm<z.infer<typeof formSchema>>({
                   </div>
                   <div className="flex gap-4">
                     <CustomInput control={form.control} name='dateOfBirth' label="Date of Birth" placeholder='YYYY-MM-DD' />
-                    <CustomInput control={form.control} name='ContactNo' label="Contact" placeholder='' />
+                    <CustomInput control={form.control} name='contact' label="Contact" placeholder='' />
                   </div>
                 </>
               )}
@@ -150,7 +150,7 @@ const form = useForm<z.infer<typeof formSchema>>({
         />
         <CustomInput
         control={form.control}
-        name='Password' label='Password'
+        name='password' label='Password'
         placeholder='Enter your Password'
         />
 
