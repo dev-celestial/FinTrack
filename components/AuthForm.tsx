@@ -78,7 +78,7 @@ const form = useForm<z.infer<typeof formSchema>>({
             password: data.password,
           })
 
-          if(response) router.push('/')
+          if(response) router.push('/');
         }
       } catch (error) {
         console.log(error);
