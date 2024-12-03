@@ -91,7 +91,7 @@ const form = useForm<z.infer<typeof formSchema>>({
        <header className='flex flex-col gap-5 md:gap-8'>
        <Link href="/" className="cursor-pointer flex items-center gap-1">
             <Image 
-              src="/icons/logo.svg"
+              src="/icons/paisa.jpg"
               width={34}
               height={34}
               alt="Horizon logo"

@@ -31,7 +31,7 @@ const Footer = ({ user, type = 'desktop' }: FooterProps) => {
           </p>
       </div> 
       <div className="footer_image" onClick={handleLogOut} >
-        <Image src="icons/logout.svg" fill alt="dev" />
+        <Image src="/icons/paisa.jpg" fill alt="dev" />
         </div>  
     </footer>
   )
